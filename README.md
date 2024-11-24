@@ -80,3 +80,6 @@ React Router: Enables navigation between pages.
 * support authentication
 * optimize build and package.json
 * support user management
+* caching for reports
+* pagination for table/ lazy loading
+* offline support, failure cases
