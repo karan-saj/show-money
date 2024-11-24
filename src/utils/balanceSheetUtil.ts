@@ -1,3 +1,8 @@
+/**
+ * Convert iso string of updated date to string
+ * @param jsonDate  string in iso format
+ * @returns 
+ */
 export const parseUpdateDateStringToIsoString = (jsonDate: string) => {
     const match = jsonDate.match(/\/Date\((\d+)\)\//);
     
